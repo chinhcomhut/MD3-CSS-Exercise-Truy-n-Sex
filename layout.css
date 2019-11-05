@@ -1,0 +1,156 @@
+body{
+    font: 100% Lucida SansSerif,VNI-Univer;
+    margin: 20px;
+    line-height:26px;
+}
+.container{
+    xmin-width:1500px;
+}
+.wrapper{
+    position: relative;
+    overflow: auto;
+}
+.top{
+    border-radius: 6px;
+    margin: 6px;
+    background: silver;
+    color: rebeccapurple;
+    padding: 150px;
+}
+#texttop{
+    font: 100% VNI-Awchon;
+    size: auto;
+    position: center;
+}
+.text1{
+    font:100% "Leelawadee UI",VNI-Univer ;
+    size: A4;
+    text-align: center;
+    float: left;
+}
+.search-container {
+    float: right;
+}
+.top input[type=text] {
+    padding: 10px;
+    margin-top: 0px;
+    font-size: 20px;
+    border: none;
+}
+.top1{
+    height: 0;
+    float: left;
+}
+.neartop {
+    position: relative;
+    overflow: auto;
+}
+#menutop {
+    padding: 0;
+    position: relative;
+    overflow: auto;
+}
+
+.menutop {
+    width: 165px;
+    float: left;
+    background-color: rebeccapurple;
+    color: mediumspringgreen;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menutop:nth-child(1) {
+    background-color:#4CAF50;
+}
+
+.menutop:hover {
+    background-color: #999999;
+}
+.wrapper{
+    position: relative;
+    overflow: auto;
+}
+#menubar{
+    width: 200px;
+    float: left;
+}
+.menu-item{
+    width: 165px;
+    float: left;
+    background-color: rebeccapurple;
+    color: mediumspringgreen;
+    list-style-type: none;
+    margin: 4px;
+    padding: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.menu-item:nth-child(1){
+    background-color: chartreuse;
+    color: red;
+}
+.menu-item:hover{
+    background: #999999;
+}
+.col-wrap1 {
+    display: table;
+    width: 100%;
+}
+.col:hover{
+    background-color: #4CAF50;
+}
+
+.col1 {
+    display: table-cell;
+    padding: 1rem
+}
+.col1:nth-child(even){
+    background-color:lavender;
+}
+.col1:nth-child(odd){
+    background-color:floralwhite;
+}
+#main {
+    padding: 10px;
+    margin: 0 210px;
+}
+.col-wrap2 {
+    display: table;
+    width: 100%;
+}
+
+.col2 {
+    display: table-cell;
+    padding: 1rem
+}
+.col2:nth-child(even){
+    background-color:lavender;
+}
+.col2:nth-child(odd){
+    background-color:floralwhite;
+}
+.col2:hover{
+    background-color: #4CAF50;
+}
+.col1:hover{
+    background-color: rosybrown;
+}
+.slider {
+    background: red;
+    color: white;
+    width: 900px;
+    height: 600px;
+    display: flex;
+    overflow-x: auto;
+}
+.slide {
+    width: 300px;
+    flex-shrink: 0;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
